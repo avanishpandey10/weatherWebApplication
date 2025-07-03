@@ -1,0 +1,63 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url("https://wallpapercave.com/wp/EC1gLOM.jpg");
+     
+      background-size: cover;
+
+
+    }
+
+#detail{
+    display: grid;
+}
+
+#groupA,#groupB{
+    display: flex;
+    color: rgb(51, 53, 45);
+    gap: 15px;
+    
+}
+main{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.9);
+    
+}
+
+main:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+#detail{
+    margin-left: 50px;
+}
+
+input[type=text]{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+
+}
+input[type=text]:hover{
+    border-color: none;
+}
+button{
+    border-radius: 10px ;
+    height: 30px;
+    background-color: rgb(37, 89, 178);
+    border: none;
+    color: white;
+
+    
+
+}

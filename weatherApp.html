@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherApp</title>
+    <link rel="stylesheet" href="weatherApp.css">
+    
+</head>
+<body>
+    <main>
+        <h1>
+            Weather Web App
+        </h1>
+        <form action="" onsubmit="getData(event)">
+            <input id="inputBox" type="text" placeholder="enter city name">
+            <button>Search</button>
+        </form>
+
+        <div id="detail">
+            <div id="groupA">
+
+            <div id="countryName">
+                <p>Country Name</p>
+                <p id="country">--</p>
+            </div>
+            <div id="stateName">
+                <p>State Name</p>
+                <p id="state">--</p>
+            </div>
+            <div id="cityName">
+                <p>City Name</p>
+                <p id="city">--</p> 
+                
+            </div> 
+
+            </div>
+            
+            <div id="groupB">
+                <div id="humidity">
+                <p>Humidity</p>
+                <p id="hdt">--</p>
+            </div>
+            <div id="windSpeed">
+                <p>Wind Speed</p>
+                <p > <span id="wind">-- </span>KMph</p>
+            </div>
+            <div id="temprature">
+                <p>Temprature</p>
+                <p id="tapman"><span id="temp">--</span> &#8451</p>
+            </div>
+            <div id="overCast">
+                <img id="logoimg" src="" width="20px" alt="icon">
+                <p id="cast">--</p>
+                
+            </div>
+            </div>
+            
+        </div>
+    </main>
+
+
+    <script src="weatherApp.js"></script>
+</body>
+</html>
