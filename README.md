@@ -21,4 +21,4 @@ This is a simple Weather Web App built using **HTML**, **CSS**, and **JavaScript
 
 ### Example:
 ```javascript
-const apiKey = "YOUR_API_KEY_HERE"; // Replace this with your actual API key
+const fetchData = await fetch(`http://api.weatherapi.com/v1/current.json?key=yourAPIWeatherKey&q=${cityy}`); // Replace this with your actual API key
